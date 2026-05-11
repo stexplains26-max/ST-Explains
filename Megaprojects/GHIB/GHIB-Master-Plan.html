@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ST-Explains</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800;900&family=Exo+2:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../megaproject-style.css">
+    </head>
+    <body>
+        <!-- Navigation Bar & Hero Section -->
+        <section class="hero">
+            <img src="Gordie_Howe_International_Bridge_2026-04-21_1052.jpg" class="hero__bg" alt="Gordie Howe International Bridge in April 2026">
+
+            <!-- IMAGE INFO BUTTON -->
+            <div class="hero-image-info">
+                <button class="hero-image-info__btn" aria-label="Image information">
+                    <strong>Credit: </strong><a href="https://commons.wikimedia.org/wiki/User:TheWxResearcher"> TheWxResearcher</a>
+                </button>
+
+                <div class="hero-image-info__popup">
+                    <h4>Image Information</h4>
+                    <p>
+                        <strong>Image courtesy:</strong> <a href="https://commons.wikimedia.org/wiki/User:TheWxResearcher">TheWxResearcher</a>;<br> 
+                        <strong>Image sourced from:</strong> <a href="https://commons.wikimedia.org/wiki/File:Gordie_Howe_International_Bridge_2026-04-21_1052.jpg">Wikimedia Commons</a>;<br>
+                        <strong>Gordie Howe International Bridge in April 2026, connecting Windsor, Ontario, and Detroit, Michigan<br>
+                        (CCO 1.0 Universal <a href="https://commons.wikimedia.org/wiki/User:TheWxResearcher">TheWxResearcher</a>; used under <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0 1.0 Universal Public Domain Dedication</a> for educational/research-based explanation and illustrative purposes; unaltered).</strong> 
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Navigation Bar -->
+            <nav class="navbar">
+                <div class="navbar__container">
+                    <a href="/index.html" id="navbar__logo">ST-Explains</a>
+                    <button id="mobile-menu" class="navbar__toggle" type="button">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                    <ul class="navbar__menu" id="primary-navigation">
+                        <li class="navbar__item">
+                            <a href="/index.html" class="navbar__links"><span class="nav-txt">Home</span></a>
+                        </li>
+                        <li class="navbar__item active">
+                            <a href="/megaprojects.html" class="navbar__links active"><span class="nav-txt">Mega Projects</span></a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="/cities.html" class="navbar__links"><span class="nav-txt">Urban Redesigns</span></a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="/industries.html" class="navbar__links"><span class="nav-txt">Global Markets</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- 🔥 MOBILE TOC TOGGLE BUTTON (NEW) -->
+            <button class="toc-mobile-btn" id="toc-mobile-btn">
+                Table of Contents
+            </button>
+
+            <!-- Hero Section -->
+            <div class="hero__content">
+                <div class="text-box">
+                    <h1>Gordie Howe International Bridge. <br><span class="accent">Explained.</span></h1>
+                    <p><strong>The Longest Cable-Stayed Bridge in North America</strong></p>
+                </div>
+            </div>
+        </section>
+        <!-- Content Section 1 -->
+        <div class="page-layout">
+            <aside class="toc-wrapper">
+                <div class="toc-toggle">
+                    <button id="toc-left" class="toc-toggle-btn toc-toggle-left">
+                        <span class="arrow">◀</span>
+                        <span class="label">Sections</span>
+                    </button>
+                    <button id="toc-right" class="toc-toggle-btn toc-toggle-right">
+                        <span class="label">Detailed<br>Master Plan</span>
+                        <span class="arrow">▶</span>
+                    </button>
+                </div>
+                <!-- MACRO -->
+                <nav class="toc-panel toc-panel--macro active">
+                    <h4>Sections</h4>
+                    <ul>
+                        <li><a href="GHIB.html">Introduction</a></li>
+                        <li><a href="GHIB-History.html">History</a></li>
+                        <li><a href="GHIB-Master-Plan.html">Detailed Master Plan</a></li>
+                        <li><a href="GHIB-Finances.html">Finances</a></li>
+                        <li><a href="GHIB-Organizatinal-Structure.html">Organizational Structure</a></li>
+                        <li><a href="GHIB-Current-Progress.html">Current Progress</a></li>
+                    </ul>
+                </nav>
+                <!-- MICRO -->
+                <nav class="toc-panel toc-panel--micro">
+                    <h4>Detailed Master Plan</h4>
+                    <ul>
+                        <li>
+                            <a href="#bridge">Bridge & Approach</a>
+                            <ul>
+                                <li><a href="#bridge-arch">Architectural Design & Inspiration</a></li>
+                                <li><a href="#bridge-structure">Structural Engineering & Materials</a></li>
+                                <li><a href="#bridge-specs">Dimensional & Technical Specifications</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#CAN">The Canadian Port of Entry</a>
+                            <ul>
+                                <li><a href="#CAN-arch">Architectural Design & Inspiration</a></li>
+                                <li><a href="#CAN-structure">Structural Engineering & Materials</a></li>
+                                <li><a href="#CAN-specs">Dimensional & Technical Specifications</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#US">The U.S. Port of Entry</a>
+                            <ul>
+                                <li><a href="#US-arch">Architectural Design & Inspiration</a></li>
+                                <li><a href="#US-structure">Structural Engineering & Materials</a></li>
+                                <li><a href="#US-specs">Dimensional & Technical Specifications</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#MI">The Michigan Interchange (I-75)</a>
+                            <ul>
+                                <li><a href="#MI-arch">Architectural Design & Inspiration</a></li>
+                                <li><a href="#MI-structure">Structural Engineering & Materials</a></li>
+                                <li><a href="#MI-specs">Dimensional & Technical Specifications</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#SEP">Sustainability & Efficiency Plan (I-75)</a>
+                            <ul>
+                                <li><a href="#pillar1">Resource & Operational Efficiency</a></li>
+                                <li><a href="#pillar2">Environmental Protection</a></li>
+                                <li><a href="#pillar3">Community Vitality & Social Legacy</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <section class="Heading_1">
+                <h1>Detailed Master Plan</h1>
+
+                    <h2 id="bridge">Bridge & Approach</h2>
+
+                        <h3 id="bridge-arch">Architectural Design & Inspiration</h3>
+                            <p>
+                                The Gordie Howe International Bridge (GHIB), designed by well-known AECOM, with Erik Behrens serving as the Chief Bridge Architect, features an elegant, inverted "Y" shape (or “A” shape) for the towers, with a distinct curvature inspired by a hockey stick—a tribute to a shared cultural passion in both Canada and the United States, and Gordie Howe — in a slapshot. This cable-stayed design was selected for its thin, fan-like array of cables, creating a fine visual profile that preserves river views. To ensure the bridge serves as a cultural landmark, Canadian artist Douglas Coupland was commissioned to design the Aesthetic Lighting system, a programmable LED array capable of displaying millions of colours across the pylons and cables to commemorate holidays or regional events.
+                            </p>
+                        
+                        <h3 id="bridge-structure">Structural Engineering & Materials</h3>
+                            <p>
+                                The engineering of the 2.5-kilometre-long bridge was managed by a joint venture of world-renowned structural firms Carlos Fernandez Casado, S.L. (CFC) and FHECOR Ingenieros Consultores. The massive cable-stayed structure boasts a record-breaking 853-metre clear span, making it the longest in all of North America. To support the structure without piers in the water, each 220-metre tower rests on 12 shafts bored 36 metres into the bedrock to ensure stability. Each of these individual shafts required approximately 261,000 litres of concrete fill. Above the footings, the towers themselves are divided into two distinct sections: the 140-metre lower pylon legs and the 80-metre upper pylon, which houses the stay-cable anchorages. Constructing just one of these inverted "Y" shape towers required roughly 10,000 cubic metres of high-performance concrete and 4,500 metric tons of steel rebar.
+                            </p>
+                            <p>
+                                Over the water, the main bridge deck was built using an "unbalanced cantilever" method, where 55 segments (27 from each tower) are extended outward from the towers over the river, and then linked in the center using the final mid-span closure segment, all relying on a network of 216 parallel strand stay cables for support — the longest of which (~450 metres) contains roughly 825 metric tons of high-strength steel wire. These cables, made of 38 to 121 1.5-centimetre-diameter grade 270 rope-like metal strands housed in a high-density polyethylene (HDPE) plastic pipe, are essential for transferring the bridge’s 15,000-tonne weight to the towers. Between the tower legs, there are also three specialized segments known as the "pier table." Each deck is a composite design consisting of two edge girders, nine redundancy girders, and three floor beams, topped with 12 precast concrete panels and enclosed from below by 12 steel soffit panels, all suspended by high-tension "tendons" that transfer weight back to the pylon heads. To put the scale into perspective, just one of those floor beams measures 113 feet in length and weighs 55,115 pounds, and, in total, over 6,000 cubic metres of precast concrete panels were used for the bridge deck. 
+                            </p>
+                            <p>
+                                Over the water, the main bridge deck was built using an "unbalanced cantilever" method, where 55 segments (27 from each tower) are extended outward from the towers over the river, and then linked in the center using the final mid-span closure segment, all relying on a network of 216 parallel strand stay cables for support — the longest of which (~450 metres) contains roughly 825 metric tons of high-strength steel wire. These cables, made of 38 to 121 1.5-centimetre-diameter grade 270 rope-like metal strands housed in a high-density polyethylene (HDPE) plastic pipe, are essential for transferring the bridge’s 15,000-tonne weight to the towers. Between the tower legs, there are also three specialized segments known as the "pier table." Each deck is a composite design consisting of two edge girders, nine redundancy girders, and three floor beams, topped with 12 precast concrete panels and enclosed from below by 12 steel soffit panels, all suspended by high-tension "tendons" that transfer weight back to the pylon heads. To put the scale into perspective, just one of those floor beams measures 35 metres in length and weighs 25,000 kilograms, and, in total, over 6,000 cubic metres of precast concrete panels were used for the bridge deck. 
+                            </p>
+                            <p>
+                                Over on the shore, the back span (the portion of the road deck over land) had to be built first to counterbalance the weight of the main span being built over the water. To hold this massive land-based road deck during construction, crews erected 18 temporary falsework bents (nine in Canada and nine in the U.S.). These temporary bents were constructed using massive steel columns anchored to reinforced concrete bases and tied together with post-tension cables to support the weight of the 30-metre steel edge girders before the stay cables were installed.
+                            </p>
+                            <p>
+                                Permanently, the back and side spans are supported by a robust network of concrete piers. In each country, the structural design features four side span piers and two massive anchor piers. The foundations for these permanent piers consist of steel pipe and reinforced concrete driven 30 metres into the ground. Constructing the columns for the side and anchor piers required roughly 3,000 cubic metres of concrete and 700 tonnes of steel rebar. Once poured, these finished pier columns range in height from 15.6 metres up to 26.6 metres. In total, the land-based back span deck consists of 25 structural segments in Canada and 26 deck segments in the United States.
+                            </p>
+                            <p>
+                                As for the approach spans, they serve as the critical elevated viaducts connecting the Canadian and U.S. Ports of Entry (POE) to the bridge's back span. The approach span in Canada is approximately 430 metres long and covers roughly 35,000 square metres of land. The U.S. approach is slightly longer, measuring 473 metres and covering 38,500 square metres.
+                            </p>
+                            <p>
+                                These approach decks are elevated by a series of permanent pier columns — nine on the Canadian side and ten on the U.S. side. To ensure absolute stability, the deep foundation work for these columns was incredibly extensive. Each pier was driven between 26 and 30 metres into the earth, and as the span gradually slopes upward to seamlessly meet the back span, these pier columns were built gradually in size, starting at 6 metres near the customs plazas and rising to 20 metres tall just before reaching the bridge deck. In Canada alone, establishing the footings required more than 300 individual piling operations, and building the substructure and pier columns utilized roughly 5,200 cubic metres of concrete and 684 tonnes of steel rebar.
+                            </p>
+                        
+                        <h3 id="bridge-specs">Dimensional & Technical Specifications</h3>
+                        
+                            <h4 style="text-align: center; text-decoration: underline;">Table-1<br>Overall Bridge Specifications</h4>
+                                <table>
+                                    <colgroup>
+                                        <col style="width: 30%;">
+                                        <col style="width: 30%;">
+                                        <col style="width: 40%;">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th></th>
+                                            <th>Value/Quantity</th>
+                                            <th>Additional Info.</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Type</th>
+                                            <td>Cable-Stayed</td>
+                                            <td rowspan="4">N/A</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Total Length</th>
+                                            <td>~2.5 km</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Total Width</th>
+                                            <td>37.5 m</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Total Height</th>
+                                            <td>220 m</td>
+                                        </tr>
+                                        <tr>
+                                            <th># of Traffic Lanes</th>
+                                            <td>6 laned</td>
+                                            <td>(3 Canada-bound & 3 U.S.-bound)</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Vertical Clearance</th>
+                                            <td>46 m</td>
+                                            <td>42 m clearance near the shore</td>
+                                        </tr>
+                                        <tr>
+                                            <th># of Stay Cables</th>
+                                            <td>216 cables</td>
+                                            <td>Fan-shaped parallel strand system</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Total Lifespan</th>
+                                            <td>125 years</td>
+                                            <td>N/A</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            
+                            <h4 style="text-align: center; text-decoration: underline;">Table-2<br>Main Bridge Specifications</h4>
+                                <table>
+                                    <colgroup>
+                                        <col style="width: 22%;">
+                                        <col style="width: 28%;">
+                                        <col style="width: 25%;">
+                                        <col style="width: 25%;">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th colspan="2"></th>
+                                            <th>Value/Quantity</th>
+                                            <th>Additional Info.</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th colspan="2">Type</th>
+                                            <td>Cable-Stayed</td>
+                                            <td rowspan="10">N/A</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="3">Span Length</th>
+                                            <th>Clear Span</th>
+                                            <td>853 m</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Side Span</th>
+                                            <td>357 m (US) & 352 m (Canada)</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Total Main Bridge Length</th>
+                                            <td>~1.5 km</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="3">Deck Width</th>
+                                            <th>Traffic Lanes</th>
+                                            <td>3.75 m/lane (Total 6 lanes)</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Multi-Use Path</th>
+                                            <td>3.6 m</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Total Deck Width</th>
+                                            <td>37.5 m</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="3">Tower Height</th>
+                                            <th>Lower Pylon</th>
+                                            <td>140 m</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Upper Pylon</th>
+                                            <td>80 m</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Total Tower Height</th>
+                                            <td>220 m</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Vertical Clearance</th>
+                                            <td>46 m</td>
+                                            <td>42 m near the shore</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2"># of Traffic Lanes</th>
+                                            <td>6 lanes</td>
+                                            <td>3 Canada-bound & 3 U.S.-bound</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2"># of Stay Cables</th>
+                                            <td>216 cables</td>
+                                            <td>38 to 121 1.5-cm-diameter grade 270 strands/cable</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="3"># of Deck Segments</th>
+                                            <th>Clear Span</th>
+                                            <td>55 segments</td>
+                                            <td>27 from each tower + 1 closure</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Side Span</th>
+                                            <td>51 segments</td>
+                                            <td>26 U.S. / 25 Canada</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Pier Table</th>
+                                            <td>6 segments</td>
+                                            <td>3 segments/tower</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="6">Deck Segment Breakdown</th>
+                                            <th>Edge Girders</th>
+                                            <td>2 edge girders</td>
+                                            <td>Length: 15 m<br>Height: 2.5 m<br>Weight: 45 tonnes</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Redundancy Girders</th>
+                                            <td>9 redundancy girders</td>
+                                            <td>Length: 5 m<br>Weight: 3.3 tonnes</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Floor Beams</th>
+                                            <td>3 floor beams</td>
+                                            <td>Length: 34.5 m<br>Height: 2.5 m<br>Weight: 25 tonnes</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Precast Concrete Panels</th>
+                                            <td>12 precast concrete panels</td>
+                                            <td>Weight: 16-25 tonnes<br>Depth: 250 mm</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Wearing Surface</th>
+                                            <td>Overlay Layer</td>
+                                            <td>50 mm of Latex Modified Concrete</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Steel Soffit Panels</th>
+                                            <td>12 steel soffit panels</td>
+                                            <td>Weight: 3.3-4.6 tonnes</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="3">Tower Foundation</th>
+                                            <th># of Drilled Shafts</th>
+                                            <td>24 shafts</td>
+                                            <td>12 per tower (6 per leg)</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Shaft Diameter</th>
+                                            <td>3 m</td>
+                                            <td rowspan="2">N/A</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Shaft Depth</th>
+                                            <td>~36 m into bedrock</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="3">Side/Back Span Foundation</th>
+                                            <th># of Permanent Piers</th>
+                                            <td>12 piers</td>
+                                            <td>8 Side Span piers & 4 Anchor piers</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Shaft Depth</th>
+                                            <td>~26 m into bedrock</td>
+                                            <td rowspan="2">N/A</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Pier Height</th>
+                                            <td>~30 m at peak</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            
+                            <h4 style="text-align: center; text-decoration: underline;">Table-3<br>Approach Span Specifications</h4>
+                                <table>
+                                    <colgroup>
+                                        <col style="width: 22%;">
+                                        <col style="width: 28%;">
+                                        <col style="width: 25%;">
+                                        <col style="width: 25%;">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th colspan="2"></th>
+                                            <th>CAN Approach</th>
+                                            <th>U.S. Approach</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th colspan="2">Type</th>
+                                            <td>Concrete Viaduct</td>
+                                            <td>Concrete Viaduct</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Total Length</th>
+                                            <td>~430 m</td>
+                                            <td>~470 m</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2"># of Spans</th>
+                                            <td>9 spans</td>
+                                            <td>10 spans</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Coverage Area</th>
+                                            <td>~35,000 square metres</td>
+                                            <td>~35,000 square metres</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2"># of Traffic Lanes</th>
+                                            <td>6 lanes (3 U.S.-bound/3 Canada-bound)</td>
+                                            <td>6 lanes (3 U.S.-bound/3 Canada-bound)</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="2">Deck Details</th>
+                                            <th>Base Concrete</th>
+                                            <td>270 mm of Cast-in-Place Concrete</td>
+                                            <td>270 mm of Cast-in-Place Concrete</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Wearing Surface</th>
+                                            <td>50 mm of Latex Modified Concrete</td>
+                                            <td>50 mm of Latex Modified Concrete</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="2">Piers</th>
+                                            <th># of Piers</th>
+                                            <td>9 piers</td>
+                                            <td>10 piers</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Pier Height</th>
+                                            <td>6 m to 20 m</td>
+                                            <td>6 m to 20 m</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="2">Foundation</th>
+                                            <th># of Drilled Shafts</th>
+                                            <td>9 shafts</td>
+                                            <td>10 shafts</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Shaft Depth</th>
+                                            <td>26 m to 30 m into bedrock</td>
+                                            <td>26 m to 30 m into bedrock</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            
+                    <h2 id="CAN">The Canadian Port of Entry</h2>
+                        
+                        <h3 id="CAN-arch">Architectural Design & Inspiration</h3>
+                            <p>
+                                The 130-acre Canadian Port of Entry (POE) was designed by Moriyama & Teshima Architects, serving as the Architect of Record, and Kasian, the Compliance Architect. Their design philosophy centred on "contemporary minimalism," utilizing clean lines and a material palette of glass, wood, and stone to move away from the traditional, harsh industrial border aesthetic. The primary architectural feature is a series of sweeping canopy systems over the inspection lanes, designed to provide a luminous and welcoming "front door" for travellers entering Canada.
+                            </p>
+                        
+                        <h3 id="CAN-structure">Structural Engineering & Materials</h3>
+                            <p>
+                                The structural engineering of the Canadian POE, overseen by AECOM, had to account for the soft clay of the riverbank. To prevent the massive plaza from settling or sinking, engineers implemented a specialized lightweight foundation strategy designed to stabilize the ground before vertical construction could begin. This stabilization effort utilized three primary engineering techniques:
+                            </p>
+                            <ul>
+                                <li>
+                                    EPS Geofoam: The installation of a total of 13,000 cubic meters (approx. 34,500 blocks) of ultra-lightweight Expanded Polystyrene (EPS) across the entire project. This provides high compressive strength to support traffic and buildings without the massive weight of traditional soil fill
+                                </li>
+                                <li>
+                                    Wick Drains: A total of 133,000 wick drains were installed to accelerate water removal from the clay, significantly speeding the soil consolidation process
+                                </li>
+                                <li>
+                                    Engineered Fill: The site utilized 634,000 metric tonnes of engineered fill and surcharge to compress the ground and ensure a stable base
+                                </li>
+                            </ul>
+                            <p>
+                                This support system carries 11 separate structures, which include six buildings covering a total of 12,438 square metres. These structures, such as the 10,000-square-metre Main Building, are themselves constructed using structural steel frames and high-efficiency precast concrete panels. 
+                            </p>
+                        
+                        <h3 id="CAN-specs">Dimensional & Technical Specifications</h3>
+
+                            <h4 style="text-align: center; text-decoration: underline;">Table-4<br>Overall Canadian Port of Entry Specifications</h4>
+                                <table>
+                                    <colgroup>
+                                        <col style="width: 20%;">
+                                        <col style="width: 26%;">
+                                        <col style="width: 54%;">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th colspan="2"></th>
+                                            <th>Value/Quantity</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th colspan="2">Total Site Area</th>
+                                            <td>130 acres</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Total Enclosed Building Area</th>
+                                            <td>12,438 square metres</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Total Individual Structures</th>
+                                            <td>11</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="2">Facility Breakdown</th>
+                                            <th>6 Enclosed Buildings</th>
+                                            <td>
+                                                <ol class="table-list">
+                                                    <li>Main Building</li>
+                                                    <li>Secondary Passenger Building</li>
+                                                    <li>Secondary Commercial Building</li>
+                                                    <li>Maintenance Building</li>
+                                                    <li>Toll Services Building</li>
+                                                    <li>K9 Facility</li>
+                                                </ol>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>5 Other Structures</th>
+                                            <td>
+                                                <ol class="table-list">
+                                                    <li>Primary Inspection Canopy</li>
+                                                    <li>Toll Canopy</li>
+                                                    <li>Non-Intrusive Inspection</li>
+                                                    <li>Central Utility Plant</li>
+                                                    <li>Security Entry/Gatehouse</li>
+                                                </ol>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Primary Inspection Lanes</th>
+                                            <td>24 lanes (12 passenger, 12 commercial)</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Secondary Passenger Bays</th>
+                                            <td>35 bays</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Secondary Commercial Bays</th>
+                                            <td>14 bays</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Tolling Infrastructure</th>
+                                            <td>16 toll booths</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Total Landscaped Area</th>
+                                            <td>24 acres</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Highway Connection</th>
+                                            <td>Direct connection to the Ontario Highway 401 via the Rt. Hon. Herb Gray Parkway</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                        
+                    <h2 id="US">The U.S. Port of Entry</h2>
+
+                        <h3 id="US-arch">Architectural Design & Inspiration</h3>
+                            <p>
+                                Smith-Miller + Hawkinson Architects architecturally led the 167-acre U.S. Port of Entry (POE). Their goal was to mirror the Canadian side to establish a cohesive "cross-border campus." A major architectural focus was the Jefferson Wall, a perimeter security barrier where the community selected the "Pattern" design. This feature uses faceted concrete surfaces to create a modern, starlike silhouette—a direct architectural nod to the historic layout of the adjacent historic Fort Wayne.
+                            </p>
+                        
+                        <h3 id="US-structure">Structural Engineering & Materials</h3>
+                            <p>
+                                The structural engineering of the U.S. POE followed a similarly rigorous path to the Canadian counterpart, but had to address a different set of geological challenges. While the Canadian side dealt with natural riverbank clay, the 167-acre U.S. site additionally required extensive remediation of industrial brownfield soils to create a stable foundation for the largest POE along the Canada-U.S. border. To prepare this difficult ground for the massive weight of the customs plaza and high-speed ramps, engineers utilized a complex soil-improvement strategy to prevent long-term settlement and ensure the safety of the heavy commercial traffic.
+                            </p>
+                            <p>
+                                Concurrently, the U.S. stabilization effort mirrored the innovation of the Canadian side, tailored for the Detroit terrain:
+                            </p>
+                            <ul>
+                                <li>
+                                    Wick Drains: Approximately 170,000 wick drains were installed across the U.S. POE. These synthetic vertical channels allow trapped moisture to escape the soil under the pressure of the fill, accelerating a consolidation process that would naturally take decades
+                                </li>
+                                <li>
+                                    Engineered Fill & Surcharge: More than 550,000 metric tonnes of engineered aggregate and surcharge were placed to compress the underlying soil, ensuring a rock-solid base for the highway-grade pavement and building foundations
+                                </li>
+                                <li>
+                                    EPS Geofoam: While primarily used on the Canadian side, Geofoam was also utilized across the project (totalling 34,500 blocks) to protect buried municipal infrastructure and utilities from the weight of the new port
+                                </li>
+                            </ul>
+                            <p>
+                                This POE support system carries 13 separate structures, including six enclosed buildings with an area of 30,318 square metres. These facilities, such as the 25,000-square-metre Main & Commercial Super-Structure, were engineered for extreme durability, using high-strength structural steel frames and a sophisticated material palette of precast concrete panels, curtain walls, and composite metals. 
+                            </p>
+                        
+                        <h3 id="US-specs">Dimensional & Technical Specifications</h3>
+                            
+                            <h4 style="text-align: center; text-decoration: underline;">Table-5<br>Overall U.S. Port of Entry Specifications</h4>
+                                <table>
+                                    <colgroup>
+                                        <col style="width: 20%;">
+                                        <col style="width: 26%;">
+                                        <col style="width: 54%;">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th colspan="2"></th>
+                                            <th>Value/Quantity</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th colspan="2">Total Site Area</th>
+                                            <td>167 acres</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Total Enclosed Building Area</th>
+                                            <td>30,318 square metres</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Total Individual Structures</th>
+                                            <td>13</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="2">Facility Breakdown</th>
+                                            <th>6 Enclosed Buildings</th>
+                                            <td>
+                                                <ol class="table-list">
+                                                    <li>Main & Commercial Super-Structure</li>
+                                                    <li>Secondary Passenger Building</li>
+                                                    <li>Secondary Commercial Building</li>
+                                                    <li>Maintenance Building</li>
+                                                    <li>Outbound Inspection Building</li>
+                                                    <li>K9 Facility</li>
+                                                </ol>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>5 Other Structures</th>
+                                            <td>
+                                                <ol class="table-list">
+                                                    <li>Primary Inspection Canopy</li>
+                                                    <li>Outbound Inspection Canopy</li>
+                                                    <li>Non-Intrusive Inspection</li>
+                                                    <li>Hazardous Materials Bay</li>
+                                                    <li>Energy Plant</li>
+                                                    <li>Commercial Exit Control</li>
+                                                    <li>Ancillary/Evidence Storage</li>
+                                                </ol>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Primary Inspection Lanes</th>
+                                            <td>36 lanes (21 passenger, 15 commercial)</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Secondary Passenger Bays</th>
+                                            <td>41 bays</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Secondary Commercial Bays</th>
+                                            <td>18 bays</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Total Landscaped Area</th>
+                                            <td>30 acres</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Highway Connection</th>
+                                            <td>Direct connection to I-75 via 4 new flyover ramps</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                    <h2 id="MI">The Michigan Interchange (I-75)</h2>
+                        
+                        <h3 id="MI-arch">Architectural Design & Inspiration</h3>
+                            <p>
+                                The design for the Michigan Interchange was managed by AECOM’s internal design teams. The five new pedestrian bridges (Solvay, Beard, Waterman, Junction, and Lansing Streets) were designed with curved steel arches to echo the "hockey stick" curvature of the main bridge towers. The design also includes a heavily landscaped perimeter, designed by AECOM's landscape architects, featuring thousands of trees and irrigated greenery to buffer the Delray neighbourhood from the I-75 highway.
+                            </p>
+                        
+                        <h3 id="MI-structure">Structural Design & Materials</h3>
+                            <p>
+                                The structural design of the Michigan Interchange represents a monumental engineering feat, extending over 3 kilometres along I-75 to create a seamless, high-capacity connection between the U.S. highway system and the new Port of Entry. 
+                            </p>
+                            <p>
+                                The Interchange features a complex network of ramps extending over 6.4 kilometres and rising to heights of 14 metres. This intricate system comprises five steel superstructure flyover bridges, which utilize pairs of four long-span steel girders — stretching and weighing up to 45 metres and 70 tons each — to leap over multiple lanes of I-75 traffic and active rail lines without the need for intermediate piers. These work in tandem with five concrete superstructure ramp bridges—the "distributors"—typically constructed with sets of eight rigid concrete bulb-tee girders to handle the tighter turns and lower-elevation shifts required to move traffic from the high-speed flyovers toward the Port of Entry or local service drives.
+                            </p>
+                            <p>
+                                The entire network is anchored by four gateway towers that serve as the structural "handshake" between different engineering systems. These towers facilitate the transition between bridge types and varying heights while housing specialized load-transfer gates. These large rectangular anchors are designed to accommodate the differing expansion and contraction rates between the steel ramp sections and their concrete supports, allowing the spans to move in extreme heat without compromising the structural integrity of the interchange.
+                            </p>
+                            <p>
+                                Beneath these elevated structures lie the "hidden heroes" of the interchange: eight load transfer platforms. Because the native soil consists of soft clay, these massive reinforced-concrete "rafts" work with concrete piles driven 30 metres deep to distribute the concentrated weight of the bridge piers over a much larger surface area. This foundation is further reinforced by 12 Mechanically Stabilized Earth (MSE) retaining walls. By using layers of reinforced metal straps and engineered backfill, these walls provide superior load-bearing capacity and a smaller physical footprint compared to traditional poured concrete.
+                            </p>
+                            <p>
+                                The interchange further includes four major road bridges (Springwells St, Livernois St., Clark St., and Green St.) and five pedestrian bridges (Waterman St., Beard St., Lansing St., Junction St, and Solvay St.) — ranging from 30 to 518 metres in length — all engineered with a focus on a 125-year service life. This longevity is ensured through the use of high-performance concrete mixtures, stainless-steel rebar, and a probabilistic durability model designed to withstand Michigan’s aggressive freeze-thaw cycles and heavy road-salt usage. 
+                            </p>
+                            <p>
+                                Additionally, the project includes extensive environmental buffering through the installation of precast concrete noise walls. These panels, measuring 20 centimetres thick and standing 3 to 6 metres high, with a foundation over 6 metres deep, provide a dense acoustic barrier for the neighbouring Delray community while featuring multi-toned limestone textures to reduce the visual impact of the heavy industrial corridor. Materially, the interchange is a significant contributor to the project’s total usage of 500,000 metric tonnes of concrete, 22,000 metric tonnes of steel, as well as 34,500 blocks of ultra-lightweight Expanded Polystyrene.
+                            </p>
+                        
+                        <h3 id="MI-specs">Dimensional & Technical Specifications</h3>
+                            
+                            <h4 style="text-align: center; text-decoration: underline;">Table-6<br>Overall Michigan Interchange Specifications</h4>
+                                <table>
+                                    <colgroup>
+                                        <col style="width: 24%;">
+                                        <col style="width: 26%;">
+                                        <col style="width: 26%;">
+                                        <col style="width: 24%;">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th colspan="2"></th>
+                                            <th>Value/Quantity</th>
+                                            <th>Additional Info.</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th colspan="2">Overall Site Footprint</th>
+                                            <td>3 km along I-75 from Springwells St. to Clark St.</td>
+                                            <td rowspan="6">N/A</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="5">Components</th>
+                                            <th>New Connecting Ramp Network</th>
+                                            <td>Over 6.4 km of ramps located between Campbell St. and Livernois Ave., that connect I-75 to the US POE.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Road Bridges</th>
+                                            <td>4 reconstructed local overpasses crossing I-75 and railway lines</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Pedestrian Bridges</th>
+                                            <td>5 reconstructed local pedestrian overpasses crossing I-75 and railway lines</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Service Drives and Highway Widening</th>
+                                            <td>Service Drive reconstruction and widening along the 3 km stretch of I-75</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Noise Walls</th>
+                                            <td>Precast acoustic barriers shielding the Delray community</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            
+                            <h4 style="text-align: center; text-decoration: underline;">Table-7<br>Michigan Interchange Connecting Ramps Specifications</h4>
+                                <table>
+                                    <colgroup>
+                                        <col style="width: 22%;">
+                                        <col style="width: 26%;">
+                                        <col style="width: 24%;">
+                                        <col style="width: 28%;">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th colspan="2"></th>
+                                            <th>Value/Quantity</th>
+                                            <th>Additional Info.</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th rowspan="2">Dimensions</th>
+                                            <th>Total Cumulative Length</th>
+                                            <td>6.4 km+</td>
+                                            <td rowspan="2">N/A</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Height/Clearance</th>
+                                            <td>Up to 14 metres</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="4">Ramp Breakdown</th>
+                                            <th>Steel Superstructure Flyover Bridges</th>
+                                            <td>5 flyover bridges</td>
+                                            <td>Utilize long-span steel girders to cross multiple lanes of I-75 traffic and rail lines without the need for intermediate piers</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Concrete Superstructure Ramp Bridges</th>
+                                            <td>5 ramp bridges</td>
+                                            <td>Constructed with rigid concrete bulb-tee girders, they handle the tighter turns and lower-elevation shifts required to move traffic from the high-speed flyovers down toward the POE or service drives</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Gateway Platforms</th>
+                                            <td>4 gateway towers</td>
+                                            <td>Transition between different bridge types and varying superstructure heights, and allow for thermal expansion and contraction</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Load Transfer Platforms</th>
+                                            <td>8 load transfer platforms</td>
+                                            <td>Massive, reinforced concrete "rafts" supported by piles, distributing the concentrated weight of a bridge pier across a much larger surface area</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Wearing Surface</th>
+                                            <td>50 mm of Latex Modified Concrete</td>
+                                            <td rowspan="6">N/A</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Deck Composition</th>
+                                            <td>270-mm-thick Cast-in-Place (CIP) Reinforced Concrete</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="4">Pre-Cast Pre-Stressed Concrete Bulb-Tee & Steel Plate Girders</th>
+                                            <th>Length</th>
+                                            <td>Up to 45 m</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Height</th>
+                                            <td>~1.4 m (Concrete)/~1.8-2.4 m (Steel)</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Weight</th>
+                                            <td>Weight: ~70-100 tons</td>
+                                        </tr>
+                                        <tr>
+                                            <th># of Girders/Span</th>
+                                            <td>8 girders (Concrete) or 4 girders (Steel)</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Retaining Walls</th>
+                                            <td>12 Mechanically Stabilized Earth (MSE) Walls</td>
+                                            <td>MSE Walls with precast panels</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Piers & Foundation</th>
+                                            <td>Single-Column Hammerhead Piers supported by ~30 m deep piles</td>
+                                            <td>The main pile type is the H-pile</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            
+                            <h4 style="text-align: center; text-decoration: underline;">Table-8<br>Michigan Interchange Road Bridges Specifications</h4>
+                                <table>
+                                    <colgroup>
+                                        <col style="width: 22%;">
+                                        <col style="width: 26%;">
+                                        <col style="width: 28%;">
+                                        <col style="width: 24%;">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th colspan="2"></th>
+                                            <th>Value/Quantity</th>
+                                            <th>Additonal Info.</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th colspan="2">Bridge Type</th>
+                                            <td>Pre-Cast Pre-Stressed Concrete</td>
+                                            <td rowspan="9">N/A</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2"># of Bridges</th>
+                                            <td>4</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Locations</th>
+                                            <td>
+                                                <ol class="table-list">
+                                                    <li>Springwells St.</li>
+                                                    <li>Livernois St.</li>
+                                                    <li>Clark St.</li>
+                                                    <li>Green St.</li>
+                                                </ol>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="2">Dimensions</th>
+                                            <th>Span Lengths</th>
+                                            <td>30-518 m</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Clearance</th>
+                                            <td>~5.27 m</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="4">Structural Breakdown</th>
+                                            <th>Wearing Surface</th>
+                                            <td>50 mm of Latex Modified Concrete</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Deck Type</th>
+                                            <td>270-mm-thick Cast-in-Place Concrete</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Girder Profile</th>
+                                            <td>Pre-Cast Pre-Stressed Concrete Bulb-Tee</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Foundation Type</th>
+                                            <td>Driven Steel H-Pile</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            
+                            <h4 style="text-align: center; text-decoration: underline;">Table-9<br>Michigan Interchange Pedestrian Bridges Specifications</h4>
+                                <table>
+                                    <colgroup>
+                                        <col style="width: 22%;">
+                                        <col style="width: 26%;">
+                                        <col style="width: 28%;">
+                                        <col style="width: 24%;">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th colspan="2"></th>
+                                            <th>Value/Quantity</th>
+                                            <th>Additonal Info.</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th colspan="2">Bridge Type</th>
+                                            <td>Steel Tied-Arch</td>
+                                            <td rowspan="11">N/A</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2"># of Bridges</th>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Locations</th>
+                                            <td>
+                                                <ol class="table-list">
+                                                    <li>Waterman St.</li>
+                                                    <li>Beard St.</li>
+                                                    <li>Lansing St.</li>
+                                                    <li>Junction St.</li>
+                                                    <li>Solvay St.</li>
+                                                </ol>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="4">Dimensions</th>
+                                            <th>Span Lengths</th>
+                                            <td>30-518 m</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Total Height</th>
+                                            <td>4.9 m from the pedestrian deck</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Clearance</th>
+                                            <td>~5.27 m</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Walkway Width</th>
+                                            <td>3 m</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="4">Structural Breakdown</th>
+                                            <th>Wearing Surface</th>
+                                            <td>Non-Slip Broom-Finish Texture</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Deck Type</th>
+                                            <td>200 to 225-mm-thick Pre-Cast Concrete Panels</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Girder Profile</th>
+                                            <td>Steel Plate Girders</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Foundation Type</th>
+                                            <td>Driven Steel H-Pile</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            
+                            <h4 style="text-align: center; text-decoration: underline;">Table-10<br>Michigan Interchange Noise Wall Specifications</h4>
+                                <table>
+                                    <colgroup>
+                                        <col style="width: 20%;">
+                                        <col style="width: 24%;">
+                                        <col style="width: 30%;">
+                                        <col style="width: 26%;">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th colspan="2"></th>
+                                            <th>Value/Quantity</th>
+                                            <th>Additional Info.</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th colspan="2"># of Noise Walls</th>
+                                            <td>3</td>
+                                            <td>N/A</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Locations</th>
+                                            <td>
+                                                <ol class="table-list">
+                                                    <li>Noise Wall One: Green St. to Waterman St.</li>
+                                                    <li>Noise Wall Two: Dragoon St. to Junction St.</li>
+                                                    <li>Noise Wall Three: Junction St. to Clark St.</li>
+                                                </ol>
+                                            </td>
+                                            <td>
+                                                Noise Wall One: Integrated with the Beard St. and the Waterman St. pedestrian bridges
+                                                <br>
+                                                Noise Wall Three: Integrated with the vehicle ramp and Lansing St. pedestrian bridge
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="2">Dimensions</th>
+                                            <th>Height</th>
+                                            <td>3-6 m</td>
+                                            <td rowspan="4">N/A</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Thickness</th>
+                                            <td>~20 cm</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="3">Structural Breakdown</th>
+                                            <th>Noise Barrier Type</th>
+                                            <td>Post-and-Panel System</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Wall Composition</th>
+                                            <td>200-mm-Thick Pre-Cast Concrete Panels</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Foundation Assembly</th>
+                                            <td>Steel H-Posts/Drilled Shafts</td>
+                                            <td>Up to 6 m deep</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                    
+                    <h2 id="SEP">Sustainability & Efficiency Plan</h2>
+                        <p>
+                            The Gordie Howe International Bridge (GHIB) will embody sustainability at its core while ensuring operational excellence. From ingenious design to its pioneering green energy initiatives, the bridge sets new benchmarks for sustainable practices — not only in bridge construction, but also across large-scale infrastructure projects. 
+                        </p>
+                        <p>
+                            This plan can be categorized into three core pillars: Resource & Operational Efficiency, Environmental Protection, and Community Vitality & Social Legacy. 
+                        </p>
+
+                        <h3 id="pillar1">Resource & Operational Efficiency</h3>
+                            <p>
+                                The first pillar, Resource & Operational Efficiency, is structured around three primary certifications: Envision® Platinum (for the bridge and interchange), LEED v4 Silver (for the buildings), and Energy Star (for operational efficiency). These rules act as a guide to make sure every part of the structure is built to save resources. By sticking to these goals, the entire project is designed to use about one-third less energy than a traditional border crossing, setting a new example for how large infrastructure should be built. 
+                            </p>
+                            <p>
+                                The buildings at the border crossings are designed to be high-performance structures that take care of themselves. They are wrapped in advanced insulation that acts like a high-quality thermos, keeping heat inside during the winter and out during the summer. Some of the roofs are even covered in real plants, known as green roofs, which provide a natural layer of protection and keep the buildings cool without needing as much air conditioning. Large windows are also placed in specific spots so that the sun can light up the offices during the day, which means the staff can rely less on electric lights.
+                            </p>
+                            <p>
+                                Moving to the bridge itself, the design focus shifts to extreme durability and smart technology. While many bridges are built to last for about fifty or seventy years, this bridge is engineered to last for at least one hundred and twenty-five years. By building it to be so strong, the project avoids the pollution and waste that would come from having to repair or replace it much sooner. The bridge also uses a network of smart LED lights that can sense how much light is needed. These lights can dim themselves when the moon is bright or when there are no cars around, making sure no electricity is ever wasted.
+                            </p>
+                            <p>
+                                The final part of this high-performance design is making sure traffic moves quickly and smoothly across the border. When big trucks have to sit in long lines at the border, their engines often stay on and waste a lot of fuel while polluting the air. To solve this, the layout of the roads and the inspection booths was designed to be as fast and "frictionless" as possible. By reducing the time trucks spend waiting with their engines running, the bridge design helps thousands of vehicles save gas every day, which keeps the local air cleaner and makes the whole transportation system more efficient.
+                            </p>
+                        
+                        <h3 id="pillar2">Environmental Protection</h3>
+                            <p>
+                                The core of the environmental plan begins with the bridge’s physical footprint on the Detroit River. Engineers designed the structure with a clear span of 853 metres, which is long enough to cross the entire waterway without placing any support pillars in the water. This is a major win for the river’s ecosystem because it means the natural flow of the water is never interrupted and the homes of local fish, like the protected Lake Sturgeon, are left completely untouched. By keeping the construction entirely on land, the project avoids disturbing the riverbed and prevents mud or debris from polluting the water where thousands of aquatic animals live.
+                            </p>
+                            <p>
+                                Moving from the water to the land, the project focuses on healing the ground that was once used for heavy industry. Before any new plants could be put in, the teams carefully cleaned the soil to make sure it was healthy again. Now, they are planting over 100,000 square metres of native trees and flowers. These specific plants, known as the Carolinian forest type, are naturally suited to this part of the world. Because they belong here, they are incredibly tough and don't need artificial watering or chemical fertilizers. This creates a natural green belt that provides a permanent home for local pollinators like bees and butterflies while helping the air stay fresh.
+                            </p>
+                            <p>
+                                The plan also includes specific protections for the wildlife that call the bridge area home, including birds and endangered species. For example, researchers keep a close eye on Peregrine Falcons that nest nearby to ensure construction noise doesn't bother them. To help other animals, the bridge uses a "dark-sky" lighting system. Instead of shining bright lights in every direction, these special LEDs are pointed strictly at the roadway. This prevents light from spilling into the sky or onto the river, which helps migratory birds stay on their path and keeps the natural sleep cycles of local animals from being disrupted by the bridge's operation.
+                            </p>
+                            <p>
+                                Finally, the environmental strategy addresses how the project handles rainwater once the bridge is in use. Huge border crossings can collect a lot of oily water and salt from cars, which could harm the environment if it is just washed away. To solve this, the designers built naturalized stormwater ponds and "bio-swales" that act like giant filters. These areas are filled with special plants and soil that soak up the water and naturally strain out pollutants before they can reach the river or the ground. This system ensures that every drop of rain that falls on the site is cleaned by nature itself before moving back into the water cycle.
+                            </p>
+                        
+                        <h3 id="pillar3">Community Vitality & Social Legacy</h3>
+                            <p>
+                                The Community Benefits Plan is a comprehensive framework designed to help the neighbourhoods closest to the bridge, and it is divided into two distinct strategies. The first is the Neighbourhood Infrastructure Strategy (NIS), which is a dedicated cash fund for physical community projects. While this fund was originally set at CAD 20 million (~USD 15 million) in 2019, it has since been updated to CAD 23 million (~USD 17 million) to support even more local needs. The second part is the Workforce Development and Participation Strategy, which focuses on creating jobs and business opportunities. Together, these two strategies ensure that the project improves both the physical surroundings and the economic future of the people living in Windsor and Detroit.
+                            </p>
+                            <p>
+                                Under the CAD 23 million (~USD 17 million) infrastructure fund, the project is completing major construction that directly benefits residents. This includes the Sandwich Street redevelopment in Windsor, which involves the total reconstruction of three kilometres of roadway, adding new sidewalks and heritage-style landscaping.  A key part of this effort is a CAD 1 million (~USD 790,000) enhancement fund for the Sandwich Business Improvement Area (BIA). This fund transforms the local business district through hardscaping with new street furniture, lush landscaping using native vegetation and planter boxes, and the creation of community gathering spaces. It also prioritizes active transportation by installing bike racks, wayfinding signage, and bicycle repair stations to make the neighbourhood more accessible and vibrant. 
+                            </p>
+                            <p>
+                                Across the river, the plan mirrors these improvements with a focus on the Delray neighbourhood through the ~USD 5 million (~CAD 6.8 million) Southwest Detroit Roadway Improvements strategy. This initiative proactively enhances the local fabric by repaving miles of city streets, upgrading ADA ramps for better accessibility, and installing brighter, modern street lighting to improve safety, as well as creating green buffers of trees and plants. Connecting these two nations is the CAD 3.9 million (~USD 2.9 million) multi-use path on the bridge itself. This path allows pedestrians and cyclists to cross the border for free, seamlessly linking the local trail networks of Michigan and Ontario for the first time.
+                            </p>
+                            <p>
+                                To enrich the cultural and social health of these neighbourhoods, the plan integrates a Public Art initiative and the Community Organization Investment (COI) program. The art initiative turns the border crossings into an open-air gallery, featuring large-scale murals and sculptures created by local artists that tell the story of regional culture and bi-national friendship. Simultaneously, the COI program provides between CAD 100,000 (~USD 75,000) and 200,000 (~USD 150,000) in annual grants to local non-profits. These funds go directly to "boots-on-the-ground" services like food banks, youth sports, and local arts, ensuring that the social fabric of the community is strengthened and supported throughout the entire construction period.
+                            </p>
+                            <p>
+                                The final and most significant stage of the plan is the creation of a permanent economic legacy through massive workforce participation. While the infrastructure fund is the visible face of the plan, the total economic value is much higher, with a requirement to spend over CAD 250 million (~USD 185 million) on local businesses and workers, including specific outreach to Indigenous people. By funding specialized training in high-demand trades like welding and electrical work, the project provides residents with the skills needed for lifelong careers. Because these commitments are legally written into the project's contract, they ensure that the Gordie Howe International Bridge leaves behind more than just a crossing—it leaves a foundation of better infrastructure and professional opportunity for generations to come.
+                            </p>
+            </section>
+            <div></div>
+        </div>
+        <div class="toc-overlay"></div>
+        
+        <!-- FOOTER -->
+        <footer class="site-footer">
+
+            <div class="footer-container">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <h2>ST-Explains</h2>
+                    <p>
+                        Research-based analysis of infrastructure, urban development, and global markets.
+                    </p>
+                </div>
+
+                <!-- Links -->
+                <div class="footer-links">
+                    <h4>Explore</h4>
+                    <a href="/index.html">Home</a>
+                    <a href="/megaprojects.html">Mega Projects</a>
+                    <a href="/cities.html">Urban Redesigns</a>
+                    <a href="/industries.html">Global Markets</a>
+                </div>
+
+                <!-- Social / Note -->
+                <div class="footer-note">
+                    <h4>Note</h4>
+                    <p>
+                        <strong style="font-family: 'Orbitron', sans-serif;">ST-Explains</strong> is a <strong>non-commercial educational and research-based resource</strong> 
+                        focused on explaining infrastructure projects and related developments.
+                    </p>
+                    <br>
+                    <p>
+                        Unless otherwise stated, certain images, diagrams, maps, screenshots, and referenced materials 
+                        may be used under <strong>Canadian Fair Dealing (Copyright Act, s. 29)</strong> and/or 
+                        <strong>U.S. Fair Use (17 U.S.C. § 107)</strong> for the purposes of 
+                        <strong>education, research, commentary, criticism, and public information.</strong>
+                    </p>
+                    <br>
+                    <p>
+                        Certain visuals on this website may also include 
+                        <strong>AI-generated or AI-assisted content.</strong>
+                        Under current Canadian and United States copyright frameworks, copyright status and ownership 
+                        of purely AI-generated material may be limited or legally uncertain unless sufficient human authorship, 
+                        modification, or creative contribution is involved.
+                    </p>
+                    <br>
+                    <p>
+                        This website also uses <strong>Google Fonts</strong>, which are provided under open-source
+                        licenses (including the SIL Open Font License and Apache License) and are used in accordance
+                        with their respective terms.
+                    </p>
+                    <br>
+                    <p>
+                        All third-party trademarks, logos, photographs, and referenced materials remain the property 
+                        of their respective owners. Their appearance on this website is solely for 
+                        <strong>identification, illustrative, educational, commentary, or informational purposes</strong> 
+                        and does not imply endorsement, sponsorship, partnership, or affiliation.
+                    </p>
+                    <br>
+                    <p>
+                        All reasonably identifiable third-party materials are credited to their original sources whenever practicable.
+                        For copyright inquiries, attribution concerns, or removal requests, please  <a class="footer-links" href="https://commons.wikimedia.org/wiki/User:TheWxResearcher">Contact Us</a>
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Bottom bar -->
+            <div class="footer-bottom">
+                <p>
+                    © 2026 ST-Explains. Original website design, written content, and human-authored materials 
+                    are protected unless otherwise stated.
+                </p>
+            </div>
+        </footer>
+        <script src="../megaproject-app.js"></script>
+    </body>
+</html>
