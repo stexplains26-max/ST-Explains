@@ -558,12 +558,7 @@ tbody th {
 
 
 /* MOBILE */
-@media screen and (max-width: 1300px) {
-    .hero-image-info {
-        bottom: 16px;
-        right: 16px;
-    }
-    
+@media screen and (max-width: 1300px) {    
     .hero-image-info__popup {
         width: 250px;
     }
