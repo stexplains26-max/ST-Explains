@@ -559,8 +559,20 @@ tbody th {
 
 /* MOBILE */
 @media screen and (max-width: 1300px) {    
-    .hero-image-info__popup {
-        width: 250px;
+    .hero-image-info {        
+        top: auto;        
+        bottom: 16px;        
+        right: 16px;    
+    }    
+    
+    .hero-image-info__btn {        
+        padding: 5px 10px;        
+        font-size: 0.72rem;        
+        box-shadow: 0 4px 12px rgba(0,0,0,0.12);    
+    }    
+    
+    .hero-image-info__btn a {        
+        font-size: 0.72rem;    
     }
 }
 
