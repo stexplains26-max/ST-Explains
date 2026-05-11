@@ -563,12 +563,7 @@ tbody th {
         bottom: 16px;
         right: 16px;
     }
-
-    .hero-image-info__btn {
-        width: 20px;
-        height: 20px;
-    }
-
+    
     .hero-image-info__popup {
         width: 250px;
     }
